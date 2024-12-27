@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial walks you through setting up osTicket, the open-source help desk ticketing system, after installation.<br />
 
 
 
@@ -48,6 +48,8 @@ End User Portal
  -Your customers can access the end user portal at: http://localhost/osTicket
 
 Here, they can create new tickets (if allowed) and check ticket statuses
+
+
 </p>
 <br />
 
@@ -111,10 +113,23 @@ Step 3: How to Configure Departments
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XM3TJ1G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 4: How to Configure Teams
+  Teams vs Departments
+
+  Teams are cross-functional groups of agents who may belong to different departments but work together on specific projects or ticket types.
+  
+Creating a Team
+
+ -Access Admin Panel → Agents → Teams.
+ 
+ -Click Add New Team and give it a descriptive name, (ex. Online Banking)
+ 
+Assign Agents to Teams
+
+  -Select agents from various departments to collaborate on specialized tickets or high-priority issues.
 </p>
 <br />
 
