@@ -34,17 +34,18 @@ This tutorial outlines the post-install configuration of the open-source help de
 </p>
 <p>
   
-1. Logging In
+Step 1: Logging In
 
 Admin/Analyst (Staff) Login
-
-  -Go to: http://localhost/osTicket/scp/login.php
-  Enter your administrator or staff credentials to access the Staff/Agent Panel and Admin Panel.
+ 
+ -Go to: http://localhost/osTicket/scp/login.php
+ 
+ Enter your administrator or staff credentials to access the Staff/Agent Panel and Admin Panel.
 
 
 End User Portal
-
-  -Your customers can access the end user portal at: http://localhost/osTicket
+ 
+ -Your customers can access the end user portal at: http://localhost/osTicket
 
 Here, they can create new tickets (if allowed) and check ticket statuses
 </p>
@@ -53,27 +54,27 @@ Here, they can create new tickets (if allowed) and check ticket statuses
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LwZcZdh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. Configuring Roles
+Step 2: Configuring Roles
   
-Accessing Roles
+  Accessing Roles
+ 
+   -Navigate to Admin Panel → Agents → Roles.
 
--Navigate to Admin Panel → Agents → Roles.
-
-Roles dictate what agents can see and do (e.g., delete tickets, transfer tickets, manage users).
+ Roles dictate what agents can see and do (e.g., delete tickets, transfer tickets, manage users).
 
 
-Create a New Role
-
--Click Add New Role to define a name and permissions.
+  Create a New Role
+ 
+   -Click Add New Role to define a name and permissions.
 
 Example: Supreme Admin (a role with full access to all settings).
 
-Assign Roles to Agents
-
--When creating or editing an agent, select the desired role to match their responsibilities.
+   Assign Roles to Agents
+ 
+   -When creating or editing an agent, select the desired role to match their responsibilities.
 
 
 
@@ -83,10 +84,27 @@ Assign Roles to Agents
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/W8L1ekA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 3: How to Configure Departments
+
+  
+  Departments Overview
+
+   -Departments organize ticket visibility and workflows. Common departments include Support, SysAdmins, Networking, etc.
+ 
+  Creating or Editing Departments
+
+   -Go to Admin Panel → Agents → Departments.
+
+   -Click Add New Department or edit an existing department.
+
+   -Set a department name, email address (if desired), and department manager.
+
+   -Assign Agents to Departments
+
+  Each agent can be part of one or multiple departments based on their role in the organization.
 </p>
 <br />
 
