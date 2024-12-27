@@ -136,19 +136,100 @@ Assign Agents to Teams
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6yFBjx6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 5: How to Configure Agents
+  
+  Adding Agents (Staff)
+
+  -Go to Admin Panel → Agents → Add New.
+
+  -Input the agent’s name, email, username, and password.
+
+  Assign Departments & Roles
+
+  -Select the department(s) an agent belongs to.
+
+  -Assign the appropriate role (e.g., Support, SysAdmins, Supreme Admin).
+  
+  Agent Permissions
+
+  -Decide which agent actions are allowed, such as creating tickets, editing tickets, or managing users.
 </p>
 <br />
 
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Ks061ix.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 6: How to Configure Users (Customers)
+  
+  Adding New Users
+
+  -In the Agent Panel, go to Users → Add New.
+  
+  -Fill in the user’s name, email, and other relevant details (phone number, organization, etc.).
+
+
+  Registration & Ticket Creation Settings
+
+  -Admin Panel → Settings → User Settings
+  
+  -Decide if unregistered users can create tickets or if registration is required.
+  
+Managing Users
+
+  -Users can be manually added by staff or self-register (depending on your settings).
+
+  -Group users under “Organizations” if needed (helpful for corporate clients or schools).
+</p>
+<br />
+
+
+
+<p>
+<img src="https://i.imgur.com/5sUbj1j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 7.1: SLAs (Service Level Agreements)
+  Accessing SLAs
+
+  -Go to Admin Panel → Manage → SLA.
+
+  -SLAs define response and resolution time frames.
+
+  Common SLA Examples:
+
+  -Sev-A: 1-hour grace period, 24/7 schedule (critical).
+
+  -Sev-B: 4-hour grace period, 24/7 schedule (urgent but less critical).
+
+  -Sev-C: 8-hour grace period, business hours (normal priority).
+
+
+  Assign SLA Plans
+
+  -You can assign different SLAs to help topics, departments, or ticket filters so they automatically apply based on ticket classification.
+
+  <img src="https://i.imgur.com/75sda2O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+Step 7.2: Help Topics
+
+  Help Topics Overview
+
+  Help Topics guide end users in categorizing their support requests (e.g., Password Reset, Equipment Request, Business Critical Outage).
+
+  Creating Help Topics
+
+  -Admin Panel → Manage → Help Topics.
+
+  -Click Add New Help Topic and name it (e.g., “Personal Computer Issues”).
+
+  Organizing Help Topics
+
+  -Maintain a clear list so end users can quickly find the correct category, ensuring tickets route efficiently.
 </p>
 <br />
